@@ -8,7 +8,7 @@ public static void Tarifa(int z){
             else if((z <500) && (z > 100)){
            System.out.println("Tarifa normal");
            }
-            else{
+            else if(z > 0){
                System.out.println("Tarifa por unidad");
             }
      }
